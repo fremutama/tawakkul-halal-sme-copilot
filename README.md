@@ -5,7 +5,7 @@
 TAWAKKUL (trust in Allah) is an AI-assisted, **read-only** advisor that helps small businesses stay clear of riba (interest), maysir (gambling), gharar (excessive uncertainty) and prohibited sectors. It never moves money. Rules decide every verdict; AI only explains them.
 
 **Team:** Frem Utama Shakti (frem.shakti@studenti.unitus.it), Fyolla Rezka Putri (BSW01085673@student.uniten.edu.my)
-**Repository:** [GitHub repository URL]
+**Repository:** [(https://github.com/fremutama/tawakkul-halal-sme-copilot)]
 
 ## What it does
 | Feature | What you get |
