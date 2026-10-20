@@ -1,0 +1,475 @@
+{
+  "screening": {
+    "Bank loan at 9% APR with compound interest": "FAIL",
+    "Interest-free Murabaha for a delivery van": "NO RED FLAGS",
+    "Sell lottery tickets at our shop": "FAIL",
+    "Futures contract with price to be determined later": "REVIEW",
+    "Halal catering for weddings": "NO RED FLAGS"
+  },
+  "screening_bahasa_indonesia": {
+    "Pinjaman dengan bunga bank 10% per tahun": "FAIL",
+    "Pembiayaan tanpa bunga bank untuk mesin": "NO RED FLAGS"
+  },
+  "financing_equipment_20k": "Murabaha (cost-plus sale)",
+  "audit_before": {
+    "verdict": "FAIL",
+    "score": 17,
+    "score_note": "Screening score from keyword rules, not a Shariah rating.",
+    "pillars": [
+      {
+        "pillar": "Products and services",
+        "verdict": "FAIL",
+        "findings": [
+          {
+            "category": "haram_sector",
+            "name": "Prohibited sector",
+            "term": "wine",
+            "severity": "fail",
+            "why": "Trading in or earning from prohibited goods and services is not permitted.",
+            "ref": "Qur'an 5:3, 5:90"
+          }
+        ],
+        "remedies": [
+          {
+            "issue": "Prohibited sector",
+            "category": "haram_sector",
+            "term": "wine",
+            "alternatives": [
+              "Non-alcoholic grape juice or mocktail menu",
+              "Juices, coffee, tea and other non-alcoholic drinks"
+            ],
+            "steps": [
+              "Stop trading in the prohibited item",
+              "Plan the transition and stock sell-off with a scholar's advice",
+              "Give income already earned from it to charity"
+            ]
+          }
+        ]
+      },
+      {
+        "pillar": "Financing and loans",
+        "verdict": "FAIL",
+        "findings": [
+          {
+            "category": "riba",
+            "name": "Riba (interest)",
+            "term": "apr",
+            "severity": "fail",
+            "why": "A fixed or guaranteed return on a loan of money is riba and is prohibited.",
+            "ref": "Qur'an 2:275-279"
+          }
+        ],
+        "remedies": [
+          {
+            "issue": "Riba (interest)",
+            "category": "riba",
+            "term": "apr",
+            "alternatives": [
+              "Murabaha (fixed, disclosed mark-up) for equipment or stock",
+              "Ijarah (lease) instead of a loan to buy an asset",
+              "Musharakah or Mudarabah if you can accept a profit-sharing partner",
+              "Qard Hasan (interest-free loan) for small amounts"
+            ],
+            "steps": [
+              "Do not sign the interest-based contract",
+              "Ask an Islamic bank or halal financing provider for a quote",
+              "Check that the total cost is fixed and disclosed upfront",
+              "If interest was already received, give it to charity without expecting reward",
+              "Ask a scholar to review the final contract"
+            ]
+          }
+        ]
+      },
+      {
+        "pillar": "Income sources",
+        "verdict": "FAIL",
+        "findings": [
+          {
+            "category": "maysir",
+            "name": "Maysir (gambling)",
+            "term": "raffle",
+            "severity": "fail",
+            "why": "Gaining or losing wealth purely by chance is maysir and is prohibited.",
+            "ref": "Qur'an 5:90"
+          }
+        ],
+        "remedies": [
+          {
+            "issue": "Maysir (gambling)",
+            "category": "maysir",
+            "term": "raffle",
+            "alternatives": [
+              "Fixed-price sale of the product",
+              "Loyalty points with a defined reward for every purchase",
+              "Charity donation drive with no paid chance to win"
+            ],
+            "steps": [
+              "Stop the chance-based sale or prize draw",
+              "Replace it with a fixed-price offer",
+              "Give income already earned from it to charity"
+            ]
+          }
+        ]
+      },
+      {
+        "pillar": "Savings and investments",
+        "verdict": "FAIL",
+        "findings": [
+          {
+            "category": "riba",
+            "name": "Riba (interest)",
+            "term": "interest",
+            "severity": "fail",
+            "why": "A fixed or guaranteed return on a loan of money is riba and is prohibited.",
+            "ref": "Qur'an 2:275-279"
+          }
+        ],
+        "remedies": [
+          {
+            "issue": "Riba (interest)",
+            "category": "riba",
+            "term": "interest",
+            "alternatives": [
+              "Profit-sharing investment account (Mudarabah)",
+              "Islamic bank savings account or sukuk",
+              "Keep reserves in a non-interest current account"
+            ],
+            "steps": [
+              "Do not sign the interest-based contract",
+              "Ask an Islamic bank or halal financing provider for a quote",
+              "Check that the total cost is fixed and disclosed upfront",
+              "If interest was already received, give it to charity without expecting reward",
+              "Ask a scholar to review the final contract"
+            ]
+          }
+        ]
+      },
+      {
+        "pillar": "Contracts with customers and suppliers",
+        "verdict": "REVIEW",
+        "findings": [
+          {
+            "category": "gharar",
+            "name": "Gharar (excessive uncertainty)",
+            "term": "price to be determined",
+            "severity": "warn",
+            "why": "Excessive uncertainty about price, subject matter or delivery invalidates a contract. Only excessive gharar is prohibited and scholars differ on the limit.",
+            "ref": "Sahih Muslim 1513; AAOIFI SS 31"
+          }
+        ],
+        "remedies": [
+          {
+            "issue": "Gharar (excessive uncertainty)",
+            "category": "gharar",
+            "term": "price to be determined",
+            "alternatives": [
+              "Salam, Istisna or fixed-price supply",
+              "Fixed-price contract with a clear delivery date"
+            ],
+            "steps": [
+              "Fix the price, subject matter and delivery date in writing",
+              "Remove open-ended or speculative clauses",
+              "Ask a scholar to review the contract"
+            ]
+          }
+        ]
+      },
+      {
+        "pillar": "Insurance and risk cover",
+        "verdict": "REVIEW",
+        "findings": [
+          {
+            "category": "gharar",
+            "name": "Gharar (excessive uncertainty)",
+            "term": "conventional insurance",
+            "severity": "warn",
+            "why": "Excessive uncertainty about price, subject matter or delivery invalidates a contract. Only excessive gharar is prohibited and scholars differ on the limit.",
+            "ref": "Sahih Muslim 1513; AAOIFI SS 31"
+          }
+        ],
+        "remedies": [
+          {
+            "issue": "Gharar (excessive uncertainty)",
+            "category": "gharar",
+            "term": "conventional insurance",
+            "alternatives": [
+              "Takaful (cooperative insurance)",
+              "Mutual risk-sharing pool with a scholar-approved structure"
+            ],
+            "steps": [
+              "Fix the price, subject matter and delivery date in writing",
+              "Remove open-ended or speculative clauses",
+              "Ask a scholar to review the contract"
+            ]
+          }
+        ]
+      }
+    ],
+    "action_plan": [
+      {
+        "priority": 1,
+        "pillar": "Products and services",
+        "urgency": "Fix now",
+        "first_step": "Stop trading in the prohibited item",
+        "halal_alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      {
+        "priority": 2,
+        "pillar": "Financing and loans",
+        "urgency": "Fix now",
+        "first_step": "Do not sign the interest-based contract",
+        "halal_alternatives": [
+          "Murabaha (fixed, disclosed mark-up) for equipment or stock",
+          "Ijarah (lease) instead of a loan to buy an asset",
+          "Musharakah or Mudarabah if you can accept a profit-sharing partner"
+        ]
+      },
+      {
+        "priority": 3,
+        "pillar": "Income sources",
+        "urgency": "Fix now",
+        "first_step": "Stop the chance-based sale or prize draw",
+        "halal_alternatives": [
+          "Fixed-price sale of the product",
+          "Loyalty points with a defined reward for every purchase",
+          "Charity donation drive with no paid chance to win"
+        ]
+      },
+      {
+        "priority": 4,
+        "pillar": "Savings and investments",
+        "urgency": "Fix now",
+        "first_step": "Do not sign the interest-based contract",
+        "halal_alternatives": [
+          "Profit-sharing investment account (Mudarabah)",
+          "Islamic bank savings account or sukuk",
+          "Keep reserves in a non-interest current account"
+        ]
+      },
+      {
+        "priority": 5,
+        "pillar": "Contracts with customers and suppliers",
+        "urgency": "Get a scholar's view",
+        "first_step": "Fix the price, subject matter and delivery date in writing",
+        "halal_alternatives": [
+          "Salam, Istisna or fixed-price supply",
+          "Fixed-price contract with a clear delivery date"
+        ]
+      },
+      {
+        "priority": 6,
+        "pillar": "Insurance and risk cover",
+        "urgency": "Get a scholar's view",
+        "first_step": "Fix the price, subject matter and delivery date in writing",
+        "halal_alternatives": [
+          "Takaful (cooperative insurance)",
+          "Mutual risk-sharing pool with a scholar-approved structure"
+        ]
+      },
+      {
+        "priority": 7,
+        "pillar": "All",
+        "urgency": "Before acting",
+        "first_step": "Have a qualified Shariah scholar review this plan and your contracts",
+        "halal_alternatives": []
+      }
+    ],
+    "halal_financing_options": [
+      {
+        "structure": "Murabaha (cost-plus sale)",
+        "score": 3,
+        "conditions": "The bank buys the item and sells it to you at a fixed, disclosed mark-up. You pay in instalments.",
+        "ref": "AAOIFI SS 8",
+        "note": ""
+      },
+      {
+        "structure": "Ijarah (lease)",
+        "score": 3,
+        "conditions": "The financier owns the asset and leases it to you for a known rent. Ownership may transfer at the end.",
+        "ref": "AAOIFI SS 9",
+        "note": ""
+      },
+      {
+        "structure": "Istisna (made-to-order)",
+        "score": 1,
+        "conditions": "The financier pays a manufacturer to build to your specification, with staged payments.",
+        "ref": "AAOIFI SS 11",
+        "note": ""
+      }
+    ],
+    "disclaimer": "Screening guidance based on AAOIFI-style principles. Not a fatwa. Confirm with a qualified Shariah scholar before acting."
+  },
+  "audit_after": {
+    "verdict": "NO RED FLAGS",
+    "score": 100,
+    "score_note": "Screening score from keyword rules, not a Shariah rating.",
+    "pillars": [
+      {
+        "pillar": "Products and services",
+        "verdict": "NO RED FLAGS",
+        "findings": [],
+        "remedies": []
+      },
+      {
+        "pillar": "Financing and loans",
+        "verdict": "NO RED FLAGS",
+        "findings": [],
+        "remedies": []
+      },
+      {
+        "pillar": "Income sources",
+        "verdict": "NO RED FLAGS",
+        "findings": [],
+        "remedies": []
+      },
+      {
+        "pillar": "Contracts with customers and suppliers",
+        "verdict": "NO RED FLAGS",
+        "findings": [],
+        "remedies": []
+      },
+      {
+        "pillar": "Insurance and risk cover",
+        "verdict": "NO RED FLAGS",
+        "findings": [],
+        "remedies": []
+      },
+      {
+        "pillar": "Savings and investments",
+        "verdict": "NO RED FLAGS",
+        "findings": [],
+        "remedies": []
+      }
+    ],
+    "action_plan": [
+      {
+        "priority": 1,
+        "pillar": "All",
+        "urgency": "Before acting",
+        "first_step": "Have a qualified Shariah scholar review this plan and your contracts",
+        "halal_alternatives": []
+      }
+    ],
+    "halal_financing_options": [],
+    "disclaimer": "Screening guidance based on AAOIFI-style principles. Not a fatwa. Confirm with a qualified Shariah scholar before acting."
+  },
+  "cashflow": {
+    "verdict": "REVIEW",
+    "monthly_net": {
+      "2026-07": -287.6,
+      "2026-08": -285.0,
+      "2026-09": 600.0
+    },
+    "closing_balance": 6027.4,
+    "runway_months": 21.1,
+    "flagged_transactions": [
+      {
+        "date": "2026-07-15",
+        "description": "Interest earned on savings account",
+        "amount": 12.4,
+        "issues": [
+          "Riba (interest)"
+        ],
+        "alternatives": [
+          "Murabaha (fixed, disclosed mark-up) for equipment or stock",
+          "Ijarah (lease) instead of a loan to buy an asset"
+        ]
+      },
+      {
+        "date": "2026-08-12",
+        "description": "Raffle ticket sales at charity event",
+        "amount": 300.0,
+        "issues": [
+          "Maysir (gambling)"
+        ],
+        "alternatives": [
+          "Fixed-price sale of the product",
+          "Loyalty points with a defined reward for every purchase"
+        ]
+      },
+      {
+        "date": "2026-08-20",
+        "description": "Bank loan interest charge",
+        "amount": -85.0,
+        "issues": [
+          "Riba (interest)"
+        ],
+        "alternatives": [
+          "Murabaha (fixed, disclosed mark-up) for equipment or stock",
+          "Ijarah (lease) instead of a loan to buy an asset"
+        ]
+      }
+    ],
+    "purification_due": 312.4,
+    "alerts": [
+      "Give 312.40 of non-compliant income to charity, not for own benefit (purification).",
+      "Non-compliant charge on 2026-08-20: Bank loan interest charge. Restructure to a halal contract.",
+      "Wages costs are 39.7% of income (guide: under 35%).",
+      "Net loss in: 2026-07, 2026-08"
+    ],
+    "analysis": {
+      "total_income": 13612.4,
+      "total_expenses": 13585.0,
+      "net_profit": 27.4,
+      "profit_margin_pct": 0.2,
+      "monthly": [
+        {
+          "month": "2026-07",
+          "income": 4212.4,
+          "expenses": 4500.0,
+          "net": -287.6
+        },
+        {
+          "month": "2026-08",
+          "income": 4200.0,
+          "expenses": 4485.0,
+          "net": -285.0
+        },
+        {
+          "month": "2026-09",
+          "income": 5200.0,
+          "expenses": 4600.0,
+          "net": 600.0
+        }
+      ],
+      "expense_breakdown": [
+        {
+          "category": "Wages",
+          "amount": 5400.0,
+          "share_of_income_pct": 39.7
+        },
+        {
+          "category": "Supplies",
+          "amount": 4500.0,
+          "share_of_income_pct": 33.1
+        },
+        {
+          "category": "Rent",
+          "amount": 3600.0,
+          "share_of_income_pct": 26.4
+        },
+        {
+          "category": "Interest",
+          "amount": 85.0,
+          "share_of_income_pct": 0.6
+        }
+      ],
+      "income_by_category": {
+        "Sales": 13600.0,
+        "Interest": 12.4
+      },
+      "largest_income_share_pct": 19.1,
+      "trend": "improving"
+    },
+    "financing_suggestion": [],
+    "disclaimer": "Screening guidance based on AAOIFI-style principles. Not a fatwa. Confirm with a qualified Shariah scholar before acting."
+  },
+  "audit_log_check": {
+    "ok": true,
+    "entries": 12,
+    "broken_at": null
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "disclaimer": "Screening guidance based on AAOIFI-style principles. Not a fatwa. Confirm with a qualified Shariah scholar before acting.",
+  "prohibitions": {
+    "riba": {
+      "name": "Riba (interest)",
+      "severity": "fail",
+      "why": "A fixed or guaranteed return on a loan of money is riba and is prohibited.",
+      "ref": "Qur'an 2:275-279",
+      "terms": [
+        "interest",
+        "apr",
+        "usury",
+        "riba",
+        "bunga bank",
+        "bunga pinjaman",
+        "bunga kredit",
+        "rentenir"
+      ]
+    },
+    "maysir": {
+      "name": "Maysir (gambling)",
+      "severity": "fail",
+      "why": "Gaining or losing wealth purely by chance is maysir and is prohibited.",
+      "ref": "Qur'an 5:90",
+      "terms": [
+        "lottery",
+        "raffle",
+        "gambling",
+        "casino",
+        "betting",
+        "bet",
+        "lotto",
+        "scratch card",
+        "prize draw",
+        "judi",
+        "togel",
+        "taruhan"
+      ]
+    },
+    "gharar": {
+      "name": "Gharar (excessive uncertainty)",
+      "severity": "warn",
+      "why": "Excessive uncertainty about price, subject matter or delivery invalidates a contract. Only excessive gharar is prohibited and scholars differ on the limit.",
+      "ref": "Sahih Muslim 1513; AAOIFI SS 31",
+      "terms": [
+        "price to be determined",
+        "price tbd",
+        "futures",
+        "options contract",
+        "derivative",
+        "short selling",
+        "conventional insurance",
+        "harga menyusul",
+        "harga belum ditentukan",
+        "asuransi konvensional"
+      ]
+    },
+    "haram_sector": {
+      "name": "Prohibited sector",
+      "severity": "fail",
+      "why": "Trading in or earning from prohibited goods and services is not permitted.",
+      "ref": "Qur'an 5:3, 5:90",
+      "terms": [
+        "alcohol",
+        "wine",
+        "beer",
+        "liquor",
+        "vodka",
+        "whisky",
+        "pork",
+        "bacon",
+        "nightclub",
+        "adult entertainment",
+        "brothel",
+        "arak",
+        "miras",
+        "babi"
+      ]
+    },
+    "disputed_sector": {
+      "name": "Disputed sector",
+      "severity": "warn",
+      "why": "Scholars differ on this sector, so it needs a scholar's opinion rather than a fixed ruling.",
+      "ref": "Scholarly difference of opinion",
+      "terms": [
+        "tobacco",
+        "cigarette",
+        "vape",
+        "weapons",
+        "firearms",
+        "rokok"
+      ]
+    }
+  },
+  "remedies": {
+    "by_category": {
+      "riba": {
+        "alternatives": [
+          "Murabaha (fixed, disclosed mark-up) for equipment or stock",
+          "Ijarah (lease) instead of a loan to buy an asset",
+          "Musharakah or Mudarabah if you can accept a profit-sharing partner",
+          "Qard Hasan (interest-free loan) for small amounts"
+        ],
+        "steps": [
+          "Do not sign the interest-based contract",
+          "Ask an Islamic bank or halal financing provider for a quote",
+          "Check that the total cost is fixed and disclosed upfront",
+          "If interest was already received, give it to charity without expecting reward",
+          "Ask a scholar to review the final contract"
+        ]
+      },
+      "maysir": {
+        "alternatives": [
+          "Fixed-price sale of the product",
+          "Loyalty points with a defined reward for every purchase",
+          "Charity donation drive with no paid chance to win"
+        ],
+        "steps": [
+          "Stop the chance-based sale or prize draw",
+          "Replace it with a fixed-price offer",
+          "Give income already earned from it to charity"
+        ]
+      },
+      "gharar": {
+        "alternatives": [
+          "Fixed-price contract with a clear delivery date",
+          "Salam, Istisna or fixed-price supply with defined terms",
+          "Takaful (cooperative insurance) instead of conventional insurance"
+        ],
+        "steps": [
+          "Fix the price, subject matter and delivery date in writing",
+          "Remove open-ended or speculative clauses",
+          "Ask a scholar to review the contract"
+        ]
+      },
+      "haram_sector": {
+        "alternatives": [
+          "Halal-certified products or services in the same market",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ],
+        "steps": [
+          "Stop trading in the prohibited item",
+          "Plan the transition and stock sell-off with a scholar's advice",
+          "Give income already earned from it to charity"
+        ]
+      },
+      "disputed_sector": {
+        "alternatives": [
+          "A scholar-approved product line",
+          "Ask a scholar before expanding in this sector"
+        ],
+        "steps": [
+          "Ask a scholar whether this sector is acceptable for your business",
+          "Look for a lower-doubt line of business if the answer is no",
+          "Keep records so a scholar can review them"
+        ]
+      }
+    },
+    "by_term": {
+      "wine": {
+        "alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      "beer": {
+        "alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      "liquor": {
+        "alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      "vodka": {
+        "alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      "whisky": {
+        "alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      "alcohol": {
+        "alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      "arak": {
+        "alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      "miras": {
+        "alternatives": [
+          "Non-alcoholic grape juice or mocktail menu",
+          "Juices, coffee, tea and other non-alcoholic drinks"
+        ]
+      },
+      "conventional insurance": {
+        "alternatives": [
+          "Takaful (cooperative insurance)",
+          "Mutual risk-sharing pool with a scholar-approved structure"
+        ]
+      },
+      "asuransi konvensional": {
+        "alternatives": [
+          "Takaful (asuransi syariah)",
+          "Mutual risk-sharing pool with a scholar-approved structure"
+        ]
+      },
+      "price to be determined": {
+        "alternatives": [
+          "Salam, Istisna or fixed-price supply",
+          "Fixed-price contract with a clear delivery date"
+        ]
+      },
+      "futures": {
+        "alternatives": [
+          "Salam (pay now, deliver a defined quantity later)",
+          "Fixed-price contract with a clear delivery date"
+        ]
+      }
+    },
+    "by_pillar": {
+      "savings": {
+        "riba": [
+          "Profit-sharing investment account (Mudarabah)",
+          "Islamic bank savings account or sukuk",
+          "Keep reserves in a non-interest current account"
+        ]
+      }
+    }
+  },
+  "financing": [
+    {
+      "name": "Murabaha (cost-plus sale)",
+      "fits": {
+        "equipment": 3,
+        "inventory": 3,
+        "working_capital": 2,
+        "custom_build": 1
+      },
+      "requires_partner": false,
+      "ref": "AAOIFI SS 8",
+      "conditions": "The bank buys the item and sells it to you at a fixed, disclosed mark-up. You pay in instalments."
+    },
+    {
+      "name": "Ijarah (lease)",
+      "fits": {
+        "equipment": 3,
+        "expansion": 2
+      },
+      "requires_partner": false,
+      "ref": "AAOIFI SS 9",
+      "conditions": "The financier owns the asset and leases it to you for a known rent. Ownership may transfer at the end."
+    },
+    {
+      "name": "Musharakah (joint venture)",
+      "fits": {
+        "expansion": 3,
+        "working_capital": 2,
+        "custom_build": 1
+      },
+      "requires_partner": true,
+      "ref": "AAOIFI SS 12",
+      "conditions": "Partners put in capital and share profit by agreed ratio and loss by capital share."
+    },
+    {
+      "name": "Mudarabah (investor capital)",
+      "fits": {
+        "expansion": 2,
+        "working_capital": 2
+      },
+      "requires_partner": true,
+      "ref": "AAOIFI SS 13",
+      "conditions": "An investor funds the business and you manage it. Profit is shared by ratio and the investor bears financial loss."
+    },
+    {
+      "name": "Salam (advance purchase)",
+      "fits": {
+        "agri": 3,
+        "inventory": 2
+      },
+      "requires_partner": false,
+      "ref": "AAOIFI SS 10",
+      "conditions": "You are paid now for goods of a defined quantity and quality delivered on a fixed date."
+    },
+    {
+      "name": "Istisna (made-to-order)",
+      "fits": {
+        "custom_build": 3,
+        "equipment": 1
+      },
+      "requires_partner": false,
+      "ref": "AAOIFI SS 11",
+      "conditions": "The financier pays a manufacturer to build to your specification, with staged payments."
+    },
+    {
+      "name": "Qard Hasan (benevolent loan)",
+      "fits": {
+        "working_capital": 2,
+        "inventory": 1
+      },
+      "requires_partner": false,
+      "ref": "Qur'an 2:245",
+      "conditions": "An interest-free loan where only the principal is repaid. Suited to small amounts.",
+      "max_amount": 5000
+    }
+  ]
+}
